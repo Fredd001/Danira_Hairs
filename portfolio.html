@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Frederick U. Essien: Portfolio</title>
+    <style>
+
+      body {
+	    background-color: white;
+        background: #232526;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+        .container {
+		  border-radius: 15px;
+          width: 100%;
+          height: 100%;
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+        .image {
+          background-image: url("https://spaces.w3schools.com/images/iLNPS0N_6J4.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center; 
+          width: 300px;
+          height: 300px;
+          border-radius: 50%;
+          margin: 0 auto;
+          
+        }
+
+        a {
+          font-size: medium;
+        }
+
+        .links-container {
+          display: flex;
+          flex-direction: rows;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+        }
+
+        .links-container a {
+          width: 100%;
+          color: #414345 !important;
+		  border-radius: 10px;
+          transition: 0.1s;
+        }
+
+        .links-container a:hover {
+          opacity: 5;
+        }
+
+        .name {
+          margin-top: 20px !important;
+        }
+
+        .name span {
+          font-size: 25px;
+        }
+
+        .icons {
+          display: flex;
+          justify-content: center;
+		  transform: scale(1.5);
+          gap: 30px;
+		  color: white;
+		  margin-top: 30px;
+        }
+
+        .contact {
+          text-align: center;
+          color: white;
+		  font-family: "lucida handwriting", cursive;
+		  font-size: 20px;
+		  font-weight: italic;
+        }
+
+        .contact .info {
+          display: flex;
+          flex-direction: rows;
+          justify-content: center;
+          align-items: center;
+          gap: 30px;
+        }
+
+        .contact .info span {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+
+        .bio {
+		  font-family: "lucida handwriting", cursive;
+          font-size: 5px;
+          text-align: center;
+        }
+		
+		.name {
+		  font-family: "Times New Roman", Times, serif;
+		  font-size: 5px;
+		  text-align: center;
+		}
+
+        @media screen and (min-width: 700px) {
+          .link {
+            width: 100%;
+          }
+
+          a {
+		    font-family: "lucida handwriting", cursive;
+            font-size: x-medium;
+          }
+
+        }
+        @media screen and (min-width: 500px) {
+          .container {
+            max-width: 400px;
+          }
+
+          .name span {
+            font-size: 30px;
+          }
+          
+          .bio {
+            font-size: 20px;
+          }
+
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/feather.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
+
+      <!-- Image and name container -->
+      <div class="w3-margin-top" style="text-align: center">
+        <div class="image w3-round"></div>
+        <p class="name"><span class="w3-padding: 50px w3-margin" style="font-weight: italic; color: white">Frederick U.<span style="color: #fdf5e6"> Essien</span></span></p>
+        <p class="bio"><span class="w3-padding: 50px w3-margin" style="font-weight: italic; color: white">Web Developer</span></p><br>
+      </div>
+
+      <!-- Links section 1 -->
+      <div class="links-container">
+        <a href="#" class="w3-button w3-sand w3-hover-pale-green link border" target="_blank">About Me</a>
+        <a href="#" class="w3-button w3-sand w3-hover-pale-green link border" target="_blank">My Projects</a>
+      </div>
+      
+      <!-- Links section 2 -->
+      <div class="icons w3-padding">
+        <a href="https://www.facebook.com/fredo.essien/" target="https://www.facebook.com/fredo.essien/">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.twitter.com/FrederickEssie3" target="https://www.twitter.com/FrederickEssie3">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/frederick-essien-17ab0b204/" target="https://www.linkedin.com/in/frederick-essien-17ab0b204/">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.github.com/Fredd001" target="https://www.github.com/Fredd001">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      </div><br>
+      
+        <div class="contact">
+          <p class=""><span class="w3-padding w3-margin" style="font-weight: italic; color: #fdf5e6; ">Contact Me</span></p>
+          <div class="info">
+            <a href = "Tel: +2348185745664"><span><i class="fa fa-phone" aria-hidden="true"></i> +2348185745664</span></a>
+            <a href = "Email: fredessien20@gmail.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></i> fredessien20@gmail.com</span></a>
+          </div>
+        </div><br>
+  
+    </div>
+    <script>
+      feather.replace()
+    </script>
+  </body>  
+</html>
