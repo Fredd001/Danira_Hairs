@@ -1,0 +1,130 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80); /* The image used for background*/
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: 'Syne', sans-serif;
+}
+
+.container {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image {
+  background-image: url("https://spaces.w3schools.com/images/iLNPS0N_6J4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+a {
+  font-size: medium;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.links-container a {
+  width: 100%;
+  color: #414345 !important;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+
+.links-container a:hover {
+  opacity: 0.5;
+}
+
+.name {
+  margin-top: 20px !important;
+}
+
+.name span {
+  font-size: 25px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  transform: scale(1.5);
+  gap: 30px;
+  color: white;
+  margin-top: 30px;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  font-family: "comic sans MS", cursive;
+  font-size: 20px;
+  font-weight: italic;
+}
+
+.contact .info {
+  display: flex;
+  flex-direction: rows;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact .info span {
+  display: block;
+  align-items: center;
+  gap: 5px;
+}
+
+.bio {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5px;
+  text-align: center;
+}
+    
+.name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .link {
+    width: 100%;
+  }
+
+  a {
+    font-family: "comic sans MS", cursive;
+    font-size: x-medium;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .name span {
+    font-size: 30px;
+  }
+      
+  .bio {
+    font-size: 20px;
+  }
+
+}
