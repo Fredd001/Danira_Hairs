@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 3px;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+  
+/*Navigation*/
+  
+.navigation {
+    width: 100%;
+    height: 80px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+  
+.nav-container {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    background-color: hsla(0, 0%, 24%, 0.7);
+    color: whitesmoke;
+}
+  
+.nav-container .links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    justify-content: right;
+    padding-right: 10%;
+}
+  
+.nav-container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-container .links a,
+.nav-container .logo a {
+    text-decoration: none;
+    transition: var(--transition-fast);
+    font-family: cursive;
+}
+  
+.nav-container .links a {
+    font-size: var(--font-medium);
+}
+  
+.nav-container .logo p {
+    font-size: var(--font-large);
+}
+  
+.nav-container .links a:hover,
+.nav-container .logo p:hover {
+    font-size: var(--font-large);
+}
