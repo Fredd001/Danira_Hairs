@@ -1,0 +1,9 @@
+body {
+    background-image: url(../images/pxfuel-library.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main{
+    height: 768px;
+}
