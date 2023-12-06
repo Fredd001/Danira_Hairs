@@ -17,12 +17,12 @@
 html {
   scroll-behavior: smooth;
 }
-  
+
 * {
   margin: 0;
   padding: 0;
 }
-  
+
 #back-to-top {
   display: none;
   position: fixed;
@@ -37,7 +37,7 @@ html {
   padding: 15px 20px;
   border-radius: 50%;
 }
-  
+
 /*Navigation*/
   
 .navigation { 
@@ -46,13 +46,13 @@ html {
   height: 110px;
   background-color: rgba(0, 0, 0, 0.5)
 }
-  
+ 
 .nav-container {
   margin: 0 auto;
   height: 100%;
   display: flex;
 }
-  
+
 .nav-container .links {
   display: flex;
   overflow-x: hidden;
@@ -61,8 +61,8 @@ html {
   gap: 5%;
   justify-content: right;
   padding-right: 10%;
-  }
-  
+}
+
 .nav-container .logo {
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ html {
 .nav-container .logo p:hover {
   font-size: var(--font-large);
 }
-  
+
 .mobile-button {
   display: none;
 }
@@ -141,20 +141,10 @@ html {
   right: 0;
   top: 0;
 }
-  
+
 /* main */
 
-body {
-  background-image: url(../images/pxfuel-portfolio.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.main {
-    height: auto;
-}
-
-/* Contact */
+/* contact */
 
 /* footer */
 
