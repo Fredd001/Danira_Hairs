@@ -145,15 +145,17 @@ html {
 /* Main */
 
 body {
-  margin: auto;
-  background-color: black;
+  background-image: url(../images/pxfuel-mainblack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.mindset {
-  height: 900px;
+#home {
+  height: 1080px;
 }
 
-#quote {
+#quote p {
   font-family: 'Brush Script MT', cursive;
   font-size: var(--font-2x-large);
   float: right;
@@ -175,48 +177,17 @@ body {
 /* Contact */
 
 .contact {
-  background-color: hsl(25, 75%, 35%);
-  width: 40%;
+  width: 80%;
   height: 400px;
   margin: auto;
-  margin-bottom: 30px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
-}
-
-.contact .icon {
-  width: 100%;
-  margin: auto;
-  text-align: right;
-}
-
-.contact .icon a .fa {
-  color: white;
-  font-size: 30px;
-  padding: 5% auto;
-}
-
-.contact .info {
-  float: right;
-  margin: 60px 80px auto;
-  font-size: var(--font-medium);
-  justify-content: center;
-  text-align: center;
-  display: block;
-  color: white;
-}
-
-.contact .info #name {
-  font-size: var(--font-x-large);
+  background-color: blue;
 }
 
 /* Footer */
 
 .footer {
   min-height: 50px;
-  width: auto;
+  width: 100%;
   background: #4e545a;
   background: -webkit-linear-gradient(to right, #29323c, #67727e);
   background: linear-gradient(to right, #29323c, #4d565f);
@@ -288,11 +259,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .content.container,
-    .leadership-content.container {
-      width: 100%;
-    }
-  
     .container {
       width: 80%;
     }
@@ -304,20 +270,6 @@ body {
     .contact {
       flex-direction: column;
       justify-content: center;
-    }
-  
-    .contact .short-contact {
-      width: 100%;
-      min-height: 0;
-      justify-content: center;
-    }
-  
-    .contact .short-contact h2 {
-      width: fit-content;
-    }
-  
-    .contact .container {
-      width: 90%;
     }
 }
 
@@ -374,6 +326,5 @@ body {
     .contact .container {
       width: 100%;
     }
-  
 }
   

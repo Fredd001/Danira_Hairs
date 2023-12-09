@@ -145,7 +145,8 @@ html {
 /* main */
 
 body {
-  background-image: url(../images/pxfuel-portfolio.jpg);
+  background-image: url(../images/pxfuel-succescode.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -155,6 +156,13 @@ body {
 }
 
 /* Contact */
+
+.contact {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: blue;
+}
 
 /* footer */
 
@@ -168,4 +176,155 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+  .contact.container {
+    width: 80%;
+  }
+  .contact .short-contact h2 {
+    width: 100%;
+  }
+
+  .why-us .container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-container {
+    width: 100%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .nav-container .links {
+    display: none;
+  }
+  
+  .nav-container .logo {
+      padding-left: 5%;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .nav-container .logo #a1 {
+      padding-left: 5%;
+  }
+
+  .mindset {
+      height: 800px;
+  }
+
+  .mobile-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+  }
+
+  .mobile-button span {
+    font-size: var(--font-x-large);
+  }
+
+  .mobile-links-active {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .content.container,
+  .leadership-content.container {
+    width: 100%;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .nav-container .logo a p {
+      display: none;
+  }
+
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact .short-contact {
+    width: 100%;
+    min-height: 0;
+    justify-content: center;
+  }
+
+  .contact .short-contact h2 {
+    width: fit-content;
+  }
+
+  .contact .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html,
+  body {
+    overflow-x: none;
+  }
+
+  #back-to-top {
+    display: none !important;
+  }
+
+  .navigation {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgb(19, 17, 17) !important;
+  }
+
+  .nav-container .logo {
+      padding-left: 10%;
+      justify-content: center;
+  }
+
+  .nav-container .logo #a1 {
+      padding-left: 10%;
+  }
+
+  .nav-container .logo a p {
+      display: none;
+  }
+
+  .mobile-links .closebtn {
+    margin-right: 0;
+  }
+  
+  .mobile-links {
+      position: fixed;
+  }
+
+  #quote {
+    display: none;
+  }
+
+  .contact {
+    padding: 10px;
+  }
+
+  .contact p {
+    font-size: var(--font-medium-large) !important;
+  }
+
+  .contact .container {
+    width: 100%;
+  }
+
 }
