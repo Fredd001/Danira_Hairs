@@ -96,52 +96,6 @@ html {
   font-size: var(--font-large);
 }
 
-.mobile-button {
-  display: none;
-}
-
-.mobile-links {
-  background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
-  height: 50%;
-  width: 0;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  overflow-x: hidden;
-  transition: var(--transition-fast);
-  padding-top: 20px;
-}
-
-.mobile-links a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  transition: 0.3s;
-  text-align: center;
-  color: rgb(227, 233, 229);
-}
-
-.mobile-links .closebtn {
-  font-size: var(--font-large);
-  color: rgb(153, 255, 187);
-  padding: 0;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  border: 5px solid rgb(153, 255, 187);
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
 /* Main */
 
 body {
@@ -214,16 +168,6 @@ body {
     .container {
       width: 80%;
     }
-    .contact.container {
-      width: 80%;
-    }
-    .contact .short-contact h2 {
-      width: 100%;
-    }
-  
-    .why-us .container {
-      width: 60%;
-    }
 }
   
 @media screen and (max-width: 1024px) {
@@ -247,26 +191,6 @@ body {
 
     .nav-container .logo #a1 {
         padding-left: 5%;
-    }
-
-    .mindset {
-        height: 800px;
-    }
-
-    .mobile-button {
-      display: flex;
-      width: 100%;
-      justify-content: flex-end;
-      align-items: center;
-      padding-right: 5%;
-    }
-  
-    .mobile-button span {
-      font-size: var(--font-x-large);
-    }
-  
-    .mobile-links-active {
-      width: 100%;
     }
 
 }
@@ -314,30 +238,6 @@ body {
 
     .nav-container .logo a p {
         display: none;
-    }
-  
-    .mobile-links .closebtn {
-      margin-right: 0;
-    }
-    
-    .mobile-links {
-        position: fixed;
-    }
-  
-    #quote {
-      display: none;
-    }
-  
-    .contact {
-      padding: 10px;
-    }
-  
-    .contact p {
-      font-size: var(--font-medium-large) !important;
-    }
-  
-    .contact .container {
-      width: 100%;
     }
 }
   

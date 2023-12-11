@@ -96,92 +96,30 @@ html {
   font-size: var(--font-large);
 }
   
-.mobile-button {
-  display: none;
-}
-  
-.mobile-links {
-  background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
-  background: linear-gradient(to right, #29323c, #485563);
-  height: 50%;
-  width: 0;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  overflow-x: hidden;
-  transition: var(--transition-fast);
-  padding-top: 20px;
-}
-  
-.mobile-links a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  transition: 0.3s;
-  text-align: center;
-  color: rgb(227, 233, 229);
-}
-  
-.mobile-links .closebtn {
-  font-size: var(--font-large);
-  color: rgb(153, 255, 187);
-  padding: 0;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  border: 5px solid rgb(153, 255, 187);
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-  
 /* main */
 
 body {
-  background-image: url(../images/pxfuel-succescode.jpg);
+  background-image: url(../images/pxfuel\ \(6\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .main {
-    height: 100vh;
-    width: 100%;
-    background-color: #0d2840;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: whitesmoke;
-    letter-spacing: 1.5px;
-}
-
-.pagename {
-  width: 65%;
-  text-align: center;
-  font-size: 1.5em;
-  font-family: Montserrat;
-  margin: 50px;
-}
-
-.myname {
-  width: 65%;
-  text-align: center;
-  font-size: 8em;
-  font-family: Bogart;
-  margin: 50px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  letter-spacing: 1.5px;
 }
 
 .plink {
-  width: 69%;
+  width: 70%;
   text-align: center;
-  font-size: 1em;
+  font-size: 3em;
   display: flex;
   font-family: Montserrat;
   margin: 50px;
@@ -191,11 +129,12 @@ body {
   background-color: whitesmoke;
   border-radius: 5px;
   width: 300px;
-  height: 40px;
+  height: 50px;
   text-align: center;
   border: none;
   font-weight: bold;
 }
+
 /* Contact */
 
 .contact {
