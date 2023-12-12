@@ -96,6 +96,35 @@ html {
   font-size: var(--font-large);
 }
 
+.mobile-button {
+  display: none;
+}
+
+.mobile-links {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 50vh;
+  width: 0;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+  transition: var(--transition-fast);
+  padding-top: 20px;
+}
+
+.mobile-links a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+  color: aqua;
+}
+
 /* main */
 
 body {
@@ -161,6 +190,17 @@ body {
   .nav-container .logo #a1 {
       padding-left: 5%;
   }
+
+  .mobile-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .mobile-links-active {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -186,13 +226,6 @@ body {
 
   #back-to-top {
     display: none !important;
-  }
-
-  .navigation {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    background: rgb(19, 17, 17) !important;
   }
 
   .nav-container .logo {

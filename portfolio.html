@@ -35,15 +35,17 @@
           <a href="./books.html" target="_blank" onclick="myFunction()">Books</a>
           <a href="#contact" onclick="myFunction()">Contact</a> 
         </div>
-        <a href="javascript:void(0);" onclick="toggleMobileNavigation()" title="Toggle Navigation Menu"><i style="font-size: 30px; color: white;" class="fa fa-bars"></i></a>
+        <div class="mobile-button">
+        <a href="javascript:void(0);" style="float: right;" onclick="toggleMobileNavigation()" title="Toggle Navigation Menu"><i style="font-size: 30px; color: white; padding-right: 50px;" class="fa fa-bars"></i></a>
+        </div>
       </nav>
       <script src="./resources/js/myscript.js" async></script>
     </section>
 
     <section class="main">
       <div class="plink">
-        <p style="padding: 40px 70px 40px 280px;"><button class="button" type="button" onclick="window.location.href='#web'">WEB DEVELOPMENT</button></p>
-        <p style="padding: 40px 200px 40px 70px;"><button class="button" type="button" onclick="window.location.href='#cyber'">CYBERSECURITY ANALYST</button></p>
+        <p id="p1" style="padding: 40px 70px 40px 280px;"><button class="button" type="button" onclick="window.location.href='#web'">WEB DEVELOPMENT</button></p>
+        <p id="p2" style="padding: 40px 200px 40px 70px;"><button class="button" type="button" onclick="window.location.href='#cyber'">CYBERSECURITY ANALYST</button></p>
       </div>
     </section>
 
