@@ -127,6 +127,12 @@ html {
 
 
 /* Main */
+#main {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+}
 
 body {
   background-image: url(../images/pxfuel-mainblack.jpg);
@@ -171,13 +177,87 @@ body {
   margin: auto;
 }
 
+.book-review {
+  height: 400px;
+  width: 100%;
+  background-image: url(../images/pxfuel-bookmain.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.book-review #background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 /* Contact */
 
 .contact {
-  width: 80%;
-  height: 400px;
+  width: 100%;
+  height: 60vh;
   margin: auto;
-  background-color: blue;
+  color: whitesmoke;
+  font-family: Garamond;
+  background-color: rgba(98, 62, 42, 0.7);
+}
+
+.contact .heading {
+  font-size: 3em;
+  align-items: center;
+  text-align: left;
+  padding: 50px 17%;
+  font-weight: bold;
+  font-family: bogart;
+}
+
+.contact .body {
+  width: 25%;
+  height: 30vh;
+  border-radius: 20px;
+  border: 5px thin white;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-medium-large);
+  margin: 0 0 0 15%
+}
+
+strong {
+  font-family: bogart;
+}
+
+.contact .socials { 
+  width: 25%;
+  height: 30vh;
+  border-radius: 20px;
+  border: 5px thin white;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 15% 0 0;
+}
+
+.contact .social-head{
+  font-size: 2em;
+  padding: 2%;
+  font-weight: bold;
+  font-family: bogart;
+}
+
+.contact .icon {
+  font-size: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials .icon .i {
+  padding: 5% 20%;
+  color: whitesmoke;
 }
 
 /* Footer */
@@ -195,20 +275,10 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .container {
-      width: 80%;
-    }
+    
 }
   
 @media screen and (max-width: 1024px) {
-    .nav-container {
-      width: 100%;
-    }
-  
-    .container {
-      width: 90%;
-    }
-  
     .nav-container .links {
       display: none;
     }
@@ -221,6 +291,27 @@ body {
 
     .nav-container .logo #a1 {
         padding-left: 5%;
+    }
+
+    #home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #home .container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #intro {
+      margin: auto auto 50px;
+      font-size: 30px;
     }
 
     .mobile-button {
@@ -237,17 +328,30 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-      width: 80%;
-    }
-
     .nav-container .logo a p {
         display: none;
     }
-  
-    .contact {
+
+    #home {
+      display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
+    }
+
+    #home .container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #intro {
+      padding: 1%;
+      margin: auto auto 50px;
+      font-size: 30px;
     }
 }
 
@@ -273,5 +377,86 @@ body {
     .nav-container .logo a p {
         display: none;
     }
+
+    #home {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #intro {
+      margin: auto auto 50px;
+      padding: 1%;
+      font-size: 1.5em;
+    }
+
+    .contact {
+      display: block;
+      height: 90vh;
+      margin: 0;
+    }
+
+    .contact .heading {
+      font-size: 2em;
+      padding: 10% 5%;
+      text-align: center;
+    }
+
+    .contact .socials {
+      width: 100%;
+      float: none;
+      margin: 0 0 ;
+      padding: 10%;
+    }
+
+    .contact .socials .social-head {
+      font-size: 1.5em;
+      text-align: left;
+    }
+
+    .contact .body {
+      width: 100%;
+      float: none;
+    }
+
+    #ad1, #p {
+      padding: 3% auto;
+      text-align: left;
+    }
+
+    .footer {
+      text-align: center;
+    }
+
 }
+
+@media screen and (max-width: 300px) {
+  #home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home .container {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #intro {
+    margin: auto auto 50px;
+    padding: 1%;
+    font-size: 1.1em;
+  }
+}    
+
   
