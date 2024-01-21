@@ -17,7 +17,7 @@ Skills
 Here are some of the key skills that define my professional profile:
 Technical Skills:  Project Management, Version Control/Git, Troubleshooting, IT Support, Command Line, Bash Scripting, Testing and Debugging, Asset Identification and Management, Enterprise and Network Security, Infrastructure Security, Vulnerability Assessment and Management, Threat Assessment and Management, Access Control, Endpoint Security.
 
-Soft Skills: Creativity, Adaptability, Critical Thinking, Problem Solving, Leadership, Attention to Detail, Active Listening, Positive Attitude, Teamwork, Time Management, Goal-Oriented, Continous Learning 
+Soft Skills: Creativity, Adaptability, Critical Thinking, Problem-Solving, Leadership, Attention to Detail, Active Listening, Positive Attitude, Teamwork, Time Management, Goal-Oriented, Continous Learning 
 
 Resume
 For a detailed overview of my professional experience, education, and achievements, check out my resume at https://shorturl.at/jnq59. This document provides a comprehensive look at my journey and qualifications. If you have any questions or need further details, feel free to reach out.
