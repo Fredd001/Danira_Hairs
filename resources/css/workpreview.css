@@ -44,7 +44,7 @@ a {
 .main {
   display: flex;
   align-items: center;
-  height: 100%;
+  height: 768px;
 }
 
 .main .container .row {
