@@ -55,10 +55,11 @@ a {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
+button {
   border-radius: 5px;
   border: 0px;
   color: black;
+  padding: 8px;
   background-color: wheat;
 }
 
