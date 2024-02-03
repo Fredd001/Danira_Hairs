@@ -55,6 +55,12 @@ a {
   margin: 0 0 30px;
 }
 
+img {
+  height: 500px;
+  width: 800px;
+  border: 10px solid black;
+}
+
 button {
   border-radius: 5px;
   border: 0px;
@@ -114,7 +120,14 @@ footer ul {
 
 @media screen and (max-width: 768px) {}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+  img {
+    height: 150px;
+    width: 300px;
+    border: 5px solid black;
+    margin: 20px auto;
+  }
+}
 
 @media screen and (max-width: 300px) {}      
 
