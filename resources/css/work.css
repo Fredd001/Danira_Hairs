@@ -118,7 +118,14 @@ footer ul {
   
 @media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  img {
+    height: 200px;
+    width: 400px;
+    border: 5px solid black;
+    margin: 20px auto;
+  }
+}
 
 @media screen and (max-width: 480px) {
   img {
