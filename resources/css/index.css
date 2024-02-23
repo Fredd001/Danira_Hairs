@@ -1,8 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('../images/pxfuel-hash.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+  background-color:#4A0404;
 }
 
 header {
@@ -16,7 +14,6 @@ footer .row {
 }
 
 h1 {
-  font-weight: bold;
   margin: 0;
   color: wheat;
 }
